@@ -1,0 +1,24 @@
+{
+  "name": "aptos-transfer",
+  "version": "1.0.0",
+  "description": "aptos-transfer by improof",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.5.0",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "1.27.1",
+    "aptos": "1.21.0",
+    "semaphore": "1.1.0",
+    "winston": "3.14.2"
+  }
+}
